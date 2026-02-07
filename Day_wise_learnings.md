@@ -41,3 +41,33 @@
 
 ### Outcome
 - Clean base ready for routing and authentication
+
+## Day 3 – Routing & Login Page
+
+### What I did
+- Installed `react-router-dom` for client-side routing
+- Configured routing using `BrowserRouter`, `Routes`, and `Route`
+- Created a Login page UI
+- Connected Home and Login pages using URL-based routes
+
+### What I learned
+- How routing works in a Single Page Application (SPA)
+- Difference between default route (`/`) and custom routes (`/login`)
+- Importance of correct file paths and case-sensitive imports in React
+- How React Router controls page navigation without page reloads
+
+### Issues faced
+- Login page not rendering initially
+- Import errors due to file name case mismatch
+
+### How I fixed them
+- Ensured file names and import statements matched exactly
+- Restarted the development server after fixing imports
+
+### Outcome
+- Multi-page navigation working successfully
+- Home and Login pages accessible through routes
+
+### Next plan
+- Add a common Navbar/Header
+- Add navigation links instead of manual URL typing
